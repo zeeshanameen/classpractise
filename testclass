@@ -1,0 +1,12 @@
+import java.util.scanner;
+public class test
+{
+public static void main (string args [])
+{
+int no;
+scanner scan=new scanner (system.in)
+system.out.println("enter a number")
+no=scan.nextint();
+sustem.out.println("square is"+ (no*no));
+}
+}
