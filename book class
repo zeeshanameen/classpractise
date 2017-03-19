@@ -1,0 +1,28 @@
+public class book
+{
+private string bookname;
+public book();
+{
+bookname="";
+}
+}
+public void setbookname(string bkname);
+{
+bookname=bkname;
+}
+public string getbookname();
+{
+return bookname;
+}
+public class library
+{
+public static void main (string args [])
+{
+book bk=new book()
+bk=setbookname(java);
+book 1bk=new book()
+bk=setbookname(data structer&algorithm);
+system.out.println(bk.setbookname());
+system.out.println(1bk.setbookname())
+}
+}
