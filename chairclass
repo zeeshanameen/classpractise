@@ -1,0 +1,40 @@
+public class chair 
+{
+private int legs;
+private string clolrs;
+public chair();
+{
+legs =0;
+color ="";
+}
+}
+public void setlegs (int l)
+{
+legs=l;
+}
+public void setcolor(string c)
+{
+color=c;
+}
+public int getlegs()
+{
+return legs;
+}
+public string color()
+{
+retrun color;
+}
+public class mainclass
+{
+public static void main (string[] args)
+{
+chair c1=new chair()
+c1.setlegs(4);
+c1.color(brown);
+chair c2=new chair()
+c2.setlegs(3);
+c2.setcolor(red);
+system.out.println(c1.getlegs());
+system.out.println(c1.getcolor());
+}
+}
